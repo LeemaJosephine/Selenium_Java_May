@@ -18,10 +18,8 @@ public class ExceptionHandling {
 		int stringLen=0;
 		
 		try {
-			System.exit(0);
 			result = a / b;  // Exception is occured 
 			stringLen=name.length();
-			
 			
 		} catch(ArithmeticException e) {
 			
